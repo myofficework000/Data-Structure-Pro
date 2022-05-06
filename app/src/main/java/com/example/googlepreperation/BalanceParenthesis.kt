@@ -2,7 +2,7 @@ package com.example.googlepreperation
 
 import java.util.*
 
-class BalanceParanthesis {
+class BalanceParenthesis {
     fun isValid(s: String): Boolean {
         val bracket: Stack<Char> = Stack()
         for (c in s.toCharArray()) {
@@ -21,7 +21,7 @@ class BalanceParanthesis {
 }
 
 fun main() {
-    val myObj = BalanceParanthesis()
+    val myObj = BalanceParenthesis()
     println(myObj.isValid("()"))
     println(myObj.isValid("() [] {}"))
     println(myObj.isValid("(]"))
