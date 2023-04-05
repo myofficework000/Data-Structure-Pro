@@ -1,4 +1,4 @@
-package com.example.googlepreperation.linkedlist
+package com.example.googlepreperation.linkedlist_old
 
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.example.googlepreperation.linkedlist.medium
+package com.example.googlepreperation.linkedlist_old.medium
 
 
 class AddTwoNumber {
