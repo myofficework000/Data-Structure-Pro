@@ -7,9 +7,6 @@ fun main() {
     val stackOfFruits = StackImpl<String>()
 
     stackOfFruits.apply {
-        peek()
-        pop()
-
         println("check stack is Empty or not?: ${isEmpty()}")
 
         push("Mango 1")
