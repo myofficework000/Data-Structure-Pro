@@ -58,4 +58,9 @@ fun main() {
     tree.forEachDepthFirst {
         println(it.value)
     }
+    /*tree.forEachLevelOrder {
+        println(it.value)
+    }*/
+
+    //tree.searchNode("soda")
 }
